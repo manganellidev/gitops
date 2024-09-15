@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: app-1
-          image: wagnermanganelli164/golang-wm:0.0.1
+          image: wagnermanganelli164/go-sample:0.0.1
           imagePullPolicy: Always
           ports:
             - name: http
