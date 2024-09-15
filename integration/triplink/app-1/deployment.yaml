@@ -35,7 +35,7 @@ metadata:
     app.kubernetes.io/managed-by: Helm
   namespace: triplink
 spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 2
   selector:
     matchLabels:
